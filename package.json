@@ -1,6 +1,6 @@
 {
   "name": "title-case-converter-me",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Capitalizes the first letter of every word in a sentence",
   "main": "index.js",
   "scripts": {
