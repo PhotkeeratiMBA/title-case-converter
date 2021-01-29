@@ -1,0 +1,19 @@
+{
+  "name": "title-case-converter",
+  "version": "1.0.0",
+  "description": "Capitalizes the first letter of every word in a sentence",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhotkeeratiMBA/title-case-converter.git"
+  },
+  "keywords": [],
+  "author": "sam2nd",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 8.0.0"
+ },
+}
