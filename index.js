@@ -9,4 +9,12 @@ function converter(sentence){
   return converted
 }
 
-module.exports = converter
+function buddistYear(year) {
+  const today = new Date()
+  return year > today.getFullYear()
+}
+
+module.exports = {
+  converter,
+  buddistYear
+}

@@ -1,5 +1,5 @@
 {
-  "name": "title-case-converter",
+  "name": "title-case-converter-me",
   "version": "1.0.0",
   "description": "Capitalizes the first letter of every word in a sentence",
   "main": "index.js",
@@ -15,5 +15,5 @@
   "license": "MIT",
   "engines": {
     "node": ">= 8.0.0"
- },
+  }
 }
