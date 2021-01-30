@@ -1,5 +1,2 @@
-
-export function buddistYear(year: number): boolean {
-  return year > (new Date).getFullYear()
-}
-
+export * from './calendar'
+export * from './calendar'
