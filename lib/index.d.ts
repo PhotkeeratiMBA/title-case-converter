@@ -1,1 +1,2 @@
-export declare function buddistYear(year: number): boolean;
+export * from './calendar';
+export * from './calendar';
