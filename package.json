@@ -1,12 +1,15 @@
 {
   "name": "title-case-converter-me",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Capitalizes the first letter of every word in a sentence",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "build" : "tsc",
-    "prepare" : "npm run build"
+    "start:build": "tsc -w",
+    "start:serve": "nodemon ./build/index.js",
+    "start": "concurrently npm:start:*",
+    "build": "tsc",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
